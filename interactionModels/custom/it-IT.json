@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "differenziata",
+              "type": "differenziata"
+            }
+          ],
+          "name": "info_intent",
+          "samples": [
+            "pokemon"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "differenziata"
+              }
+            }
+          ],
+          "name": "differenziata"
+        }
+      ],
+      "invocationName": "raccolta rifiuti"
+    }
+  }
+}
